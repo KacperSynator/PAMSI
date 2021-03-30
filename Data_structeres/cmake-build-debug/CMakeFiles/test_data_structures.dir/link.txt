@@ -1,0 +1,3 @@
+C:\Users\kakko\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\test_data_structures.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\test_data_structures.dir/objects.a @CMakeFiles\test_data_structures.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  -Wa,-mbig-obj -g   -Wl,--whole-archive CMakeFiles\test_data_structures.dir/objects.a -Wl,--no-whole-archive  -o test_data_structures.exe -Wl,--out-implib,libtest_data_structures.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_data_structures.dir\linklibs.rsp
