@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/kakko/Desktop/PAMSI/sort/sortowanie/src/data_generator.cpp
+algorithm
+-
+fstream
+-
+functional
+-
+iostream
+-
+iterator
+-
+random
+-
+vector
+-
+sstream
+-
+
