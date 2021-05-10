@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graph_generator.cpp
+algorithm
+-
+fstream
+-
+functional
+-
+iostream
+-
+iterator
+-
+random
+-
+vector
+-
+sstream
+-
+string
+-
+

@@ -1,0 +1,6 @@
+/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/graph_algorithms_lib.dir
+/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/test_graphs.dir
+/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/efficiency_tests.dir
+/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/data_generator.dir
