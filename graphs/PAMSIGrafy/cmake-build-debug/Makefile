@@ -67,24 +67,13 @@ RM = /home/kakkosbp/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy
+CMAKE_SOURCE_DIR = /home/kakkosbp/Pobrane/PAMSIGrafy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/kakkosbp/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -97,11 +86,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/kakkosbp/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,19 +168,6 @@ efficiency_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/efficiency_tests.dir/build.make CMakeFiles/efficiency_tests.dir/build
 .PHONY : efficiency_tests/fast
 
-#=============================================================================
-# Target rules for targets named data_generator
-
-# Build rule for target.
-data_generator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_generator
-.PHONY : data_generator
-
-# fast build rule for target.
-data_generator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_generator.dir/build.make CMakeFiles/data_generator.dir/build
-.PHONY : data_generator/fast
-
 src/adjacency_list_graph.o: src/adjacency_list_graph.cpp.o
 
 .PHONY : src/adjacency_list_graph.o
@@ -235,36 +222,6 @@ src/adjacency_matrix_graph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algorithms_lib.dir/build.make CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.s
 .PHONY : src/adjacency_matrix_graph.cpp.s
 
-src/graph_generator.o: src/graph_generator.cpp.o
-
-.PHONY : src/graph_generator.o
-
-# target to build an object file
-src/graph_generator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algorithms_lib.dir/build.make CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_generator.dir/build.make CMakeFiles/data_generator.dir/src/graph_generator.cpp.o
-.PHONY : src/graph_generator.cpp.o
-
-src/graph_generator.i: src/graph_generator.cpp.i
-
-.PHONY : src/graph_generator.i
-
-# target to preprocess a source file
-src/graph_generator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algorithms_lib.dir/build.make CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_generator.dir/build.make CMakeFiles/data_generator.dir/src/graph_generator.cpp.i
-.PHONY : src/graph_generator.cpp.i
-
-src/graph_generator.s: src/graph_generator.cpp.s
-
-.PHONY : src/graph_generator.s
-
-# target to generate assembly for a file
-src/graph_generator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algorithms_lib.dir/build.make CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_generator.dir/build.make CMakeFiles/data_generator.dir/src/graph_generator.cpp.s
-.PHONY : src/graph_generator.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -299,7 +256,6 @@ src/shortest_path_algorithms.o: src/shortest_path_algorithms.cpp.o
 # target to build an object file
 src/shortest_path_algorithms.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_graphs.dir/build.make CMakeFiles/test_graphs.dir/src/shortest_path_algorithms.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/efficiency_tests.dir/build.make CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.o
 .PHONY : src/shortest_path_algorithms.cpp.o
 
 src/shortest_path_algorithms.i: src/shortest_path_algorithms.cpp.i
@@ -309,7 +265,6 @@ src/shortest_path_algorithms.i: src/shortest_path_algorithms.cpp.i
 # target to preprocess a source file
 src/shortest_path_algorithms.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_graphs.dir/build.make CMakeFiles/test_graphs.dir/src/shortest_path_algorithms.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/efficiency_tests.dir/build.make CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.i
 .PHONY : src/shortest_path_algorithms.cpp.i
 
 src/shortest_path_algorithms.s: src/shortest_path_algorithms.cpp.s
@@ -319,7 +274,6 @@ src/shortest_path_algorithms.s: src/shortest_path_algorithms.cpp.s
 # target to generate assembly for a file
 src/shortest_path_algorithms.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_graphs.dir/build.make CMakeFiles/test_graphs.dir/src/shortest_path_algorithms.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/efficiency_tests.dir/build.make CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.s
 .PHONY : src/shortest_path_algorithms.cpp.s
 
 src/test_graphs.o: src/test_graphs.cpp.o
@@ -349,36 +303,6 @@ src/test_graphs.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_graphs.dir/build.make CMakeFiles/test_graphs.dir/src/test_graphs.cpp.s
 .PHONY : src/test_graphs.cpp.s
 
-src/timer.o: src/timer.cpp.o
-
-.PHONY : src/timer.o
-
-# target to build an object file
-src/timer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algorithms_lib.dir/build.make CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/efficiency_tests.dir/build.make CMakeFiles/efficiency_tests.dir/src/timer.cpp.o
-.PHONY : src/timer.cpp.o
-
-src/timer.i: src/timer.cpp.i
-
-.PHONY : src/timer.i
-
-# target to preprocess a source file
-src/timer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algorithms_lib.dir/build.make CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/efficiency_tests.dir/build.make CMakeFiles/efficiency_tests.dir/src/timer.cpp.i
-.PHONY : src/timer.cpp.i
-
-src/timer.s: src/timer.cpp.s
-
-.PHONY : src/timer.s
-
-# target to generate assembly for a file
-src/timer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algorithms_lib.dir/build.make CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/efficiency_tests.dir/build.make CMakeFiles/efficiency_tests.dir/src/timer.cpp.s
-.PHONY : src/timer.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -387,7 +311,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... data_generator"
 	@echo "... efficiency_tests"
 	@echo "... graph_algorithms_lib"
 	@echo "... test_graphs"
@@ -397,9 +320,6 @@ help:
 	@echo "... src/adjacency_matrix_graph.o"
 	@echo "... src/adjacency_matrix_graph.i"
 	@echo "... src/adjacency_matrix_graph.s"
-	@echo "... src/graph_generator.o"
-	@echo "... src/graph_generator.i"
-	@echo "... src/graph_generator.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -409,9 +329,6 @@ help:
 	@echo "... src/test_graphs.o"
 	@echo "... src/test_graphs.i"
 	@echo "... src/test_graphs.s"
-	@echo "... src/timer.o"
-	@echo "... src/timer.i"
-	@echo "... src/timer.s"
 .PHONY : help
 
 

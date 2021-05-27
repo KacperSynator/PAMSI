@@ -62,10 +62,10 @@ RM = /home/kakkosbp/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy
+CMAKE_SOURCE_DIR = /home/kakkosbp/Pobrane/PAMSIGrafy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/efficiency_tests.dir/depend.make
@@ -78,60 +78,29 @@ include CMakeFiles/efficiency_tests.dir/flags.make
 
 CMakeFiles/efficiency_tests.dir/src/main.cpp.o: CMakeFiles/efficiency_tests.dir/flags.make
 CMakeFiles/efficiency_tests.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/efficiency_tests.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/efficiency_tests.dir/src/main.cpp.o -c /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/efficiency_tests.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/efficiency_tests.dir/src/main.cpp.o -c /home/kakkosbp/Pobrane/PAMSIGrafy/src/main.cpp
 
 CMakeFiles/efficiency_tests.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/efficiency_tests.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/main.cpp > CMakeFiles/efficiency_tests.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kakkosbp/Pobrane/PAMSIGrafy/src/main.cpp > CMakeFiles/efficiency_tests.dir/src/main.cpp.i
 
 CMakeFiles/efficiency_tests.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/efficiency_tests.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/main.cpp -o CMakeFiles/efficiency_tests.dir/src/main.cpp.s
-
-CMakeFiles/efficiency_tests.dir/src/timer.cpp.o: CMakeFiles/efficiency_tests.dir/flags.make
-CMakeFiles/efficiency_tests.dir/src/timer.cpp.o: ../src/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/efficiency_tests.dir/src/timer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/efficiency_tests.dir/src/timer.cpp.o -c /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/timer.cpp
-
-CMakeFiles/efficiency_tests.dir/src/timer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/efficiency_tests.dir/src/timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/timer.cpp > CMakeFiles/efficiency_tests.dir/src/timer.cpp.i
-
-CMakeFiles/efficiency_tests.dir/src/timer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/efficiency_tests.dir/src/timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/timer.cpp -o CMakeFiles/efficiency_tests.dir/src/timer.cpp.s
-
-CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.o: CMakeFiles/efficiency_tests.dir/flags.make
-CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.o: ../src/shortest_path_algorithms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.o -c /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/shortest_path_algorithms.cpp
-
-CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/shortest_path_algorithms.cpp > CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.i
-
-CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/shortest_path_algorithms.cpp -o CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kakkosbp/Pobrane/PAMSIGrafy/src/main.cpp -o CMakeFiles/efficiency_tests.dir/src/main.cpp.s
 
 # Object files for target efficiency_tests
 efficiency_tests_OBJECTS = \
-"CMakeFiles/efficiency_tests.dir/src/main.cpp.o" \
-"CMakeFiles/efficiency_tests.dir/src/timer.cpp.o" \
-"CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.o"
+"CMakeFiles/efficiency_tests.dir/src/main.cpp.o"
 
 # External object files for target efficiency_tests
 efficiency_tests_EXTERNAL_OBJECTS =
 
 efficiency_tests: CMakeFiles/efficiency_tests.dir/src/main.cpp.o
-efficiency_tests: CMakeFiles/efficiency_tests.dir/src/timer.cpp.o
-efficiency_tests: CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.o
 efficiency_tests: CMakeFiles/efficiency_tests.dir/build.make
 efficiency_tests: libgraph_algorithms_lib.a
-efficiency_tests: libgraph_algorithms_lib.a
 efficiency_tests: CMakeFiles/efficiency_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable efficiency_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable efficiency_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/efficiency_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,6 +113,6 @@ CMakeFiles/efficiency_tests.dir/clean:
 .PHONY : CMakeFiles/efficiency_tests.dir/clean
 
 CMakeFiles/efficiency_tests.dir/depend:
-	cd /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/efficiency_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kakkosbp/Pobrane/PAMSIGrafy /home/kakkosbp/Pobrane/PAMSIGrafy /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles/efficiency_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/efficiency_tests.dir/depend
 

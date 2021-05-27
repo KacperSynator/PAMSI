@@ -9,8 +9,6 @@
 ../include/graphs/adjacency_list_graph.hpp
 memory
 -
-vector
--
 graphs/graph.hpp
 ../include/graphs/graphs/graph.hpp
 
@@ -38,39 +36,11 @@ utility
 vector
 -
 
-../include/timer/timer.hpp
-chrono
--
-
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_list_graph.cpp
+/home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_list_graph.cpp
 graphs/adjacency_list_graph.hpp
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graphs/adjacency_list_graph.hpp
+/home/kakkosbp/Pobrane/PAMSIGrafy/src/graphs/adjacency_list_graph.hpp
 
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_matrix_graph.cpp
+/home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_matrix_graph.cpp
 graphs/adjacency_matrix_graph.hpp
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graphs/adjacency_matrix_graph.hpp
-
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graph_generator.cpp
-algorithm
--
-fstream
--
-functional
--
-iostream
--
-iterator
--
-random
--
-vector
--
-sstream
--
-string
--
-
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/timer.cpp
-timer/timer.hpp
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/timer/timer.hpp
+/home/kakkosbp/Pobrane/PAMSIGrafy/src/graphs/adjacency_matrix_graph.hpp
 

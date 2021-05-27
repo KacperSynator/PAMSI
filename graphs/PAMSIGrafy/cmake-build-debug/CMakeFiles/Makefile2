@@ -63,10 +63,10 @@ RM = /home/kakkosbp/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy
+CMAKE_SOURCE_DIR = /home/kakkosbp/Pobrane/PAMSIGrafy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -75,7 +75,6 @@ CMAKE_BINARY_DIR = /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build
 all: CMakeFiles/graph_algorithms_lib.dir/all
 all: CMakeFiles/test_graphs.dir/all
 all: CMakeFiles/efficiency_tests.dir/all
-all: CMakeFiles/data_generator.dir/all
 
 .PHONY : all
 
@@ -88,7 +87,6 @@ preinstall:
 clean: CMakeFiles/graph_algorithms_lib.dir/clean
 clean: CMakeFiles/test_graphs.dir/clean
 clean: CMakeFiles/efficiency_tests.dir/clean
-clean: CMakeFiles/data_generator.dir/clean
 
 .PHONY : clean
 
@@ -99,14 +97,14 @@ clean: CMakeFiles/data_generator.dir/clean
 CMakeFiles/graph_algorithms_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algorithms_lib.dir/build.make CMakeFiles/graph_algorithms_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algorithms_lib.dir/build.make CMakeFiles/graph_algorithms_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11 "Built target graph_algorithms_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target graph_algorithms_lib"
 .PHONY : CMakeFiles/graph_algorithms_lib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/graph_algorithms_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/graph_algorithms_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/graph_algorithms_lib.dir/rule
 
 # Convenience name for target.
@@ -126,14 +124,14 @@ CMakeFiles/graph_algorithms_lib.dir/clean:
 CMakeFiles/test_graphs.dir/all: CMakeFiles/graph_algorithms_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_graphs.dir/build.make CMakeFiles/test_graphs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_graphs.dir/build.make CMakeFiles/test_graphs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=12,13,14 "Built target test_graphs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=6,7,8 "Built target test_graphs"
 .PHONY : CMakeFiles/test_graphs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_graphs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_graphs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/test_graphs.dir/rule
 
 # Convenience name for target.
@@ -153,14 +151,14 @@ CMakeFiles/test_graphs.dir/clean:
 CMakeFiles/efficiency_tests.dir/all: CMakeFiles/graph_algorithms_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/efficiency_tests.dir/build.make CMakeFiles/efficiency_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/efficiency_tests.dir/build.make CMakeFiles/efficiency_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6 "Built target efficiency_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target efficiency_tests"
 .PHONY : CMakeFiles/efficiency_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/efficiency_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/efficiency_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/efficiency_tests.dir/rule
 
 # Convenience name for target.
@@ -172,33 +170,6 @@ efficiency_tests: CMakeFiles/efficiency_tests.dir/rule
 CMakeFiles/efficiency_tests.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/efficiency_tests.dir/build.make CMakeFiles/efficiency_tests.dir/clean
 .PHONY : CMakeFiles/efficiency_tests.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/data_generator.dir
-
-# All Build rule for target.
-CMakeFiles/data_generator.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_generator.dir/build.make CMakeFiles/data_generator.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_generator.dir/build.make CMakeFiles/data_generator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target data_generator"
-.PHONY : CMakeFiles/data_generator.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/data_generator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/data_generator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/data_generator.dir/rule
-
-# Convenience name for target.
-data_generator: CMakeFiles/data_generator.dir/rule
-
-.PHONY : data_generator
-
-# clean rule for target.
-CMakeFiles/data_generator.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_generator.dir/build.make CMakeFiles/data_generator.dir/clean
-.PHONY : CMakeFiles/data_generator.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

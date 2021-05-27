@@ -62,10 +62,10 @@ RM = /home/kakkosbp/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy
+CMAKE_SOURCE_DIR = /home/kakkosbp/Pobrane/PAMSIGrafy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/graph_algorithms_lib.dir/depend.make
@@ -78,73 +78,43 @@ include CMakeFiles/graph_algorithms_lib.dir/flags.make
 
 CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o: CMakeFiles/graph_algorithms_lib.dir/flags.make
 CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o: ../src/adjacency_list_graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o -c /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_list_graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o -c /home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_list_graph.cpp
 
 CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_list_graph.cpp > CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_list_graph.cpp > CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.i
 
 CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_list_graph.cpp -o CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_list_graph.cpp -o CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.s
 
 CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o: CMakeFiles/graph_algorithms_lib.dir/flags.make
 CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o: ../src/adjacency_matrix_graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o -c /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_matrix_graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o -c /home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_matrix_graph.cpp
 
 CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_matrix_graph.cpp > CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_matrix_graph.cpp > CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.i
 
 CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_matrix_graph.cpp -o CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.s
-
-CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.o: CMakeFiles/graph_algorithms_lib.dir/flags.make
-CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.o: ../src/graph_generator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.o -c /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graph_generator.cpp
-
-CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graph_generator.cpp > CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.i
-
-CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graph_generator.cpp -o CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.s
-
-CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.o: CMakeFiles/graph_algorithms_lib.dir/flags.make
-CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.o: ../src/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.o -c /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/timer.cpp
-
-CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/timer.cpp > CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.i
-
-CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/timer.cpp -o CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_matrix_graph.cpp -o CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.s
 
 # Object files for target graph_algorithms_lib
 graph_algorithms_lib_OBJECTS = \
 "CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o" \
-"CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o" \
-"CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.o" \
-"CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.o"
+"CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o"
 
 # External object files for target graph_algorithms_lib
 graph_algorithms_lib_EXTERNAL_OBJECTS =
 
 libgraph_algorithms_lib.a: CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o
 libgraph_algorithms_lib.a: CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o
-libgraph_algorithms_lib.a: CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.o
-libgraph_algorithms_lib.a: CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.o
 libgraph_algorithms_lib.a: CMakeFiles/graph_algorithms_lib.dir/build.make
 libgraph_algorithms_lib.a: CMakeFiles/graph_algorithms_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libgraph_algorithms_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgraph_algorithms_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/graph_algorithms_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graph_algorithms_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -158,6 +128,6 @@ CMakeFiles/graph_algorithms_lib.dir/clean:
 .PHONY : CMakeFiles/graph_algorithms_lib.dir/clean
 
 CMakeFiles/graph_algorithms_lib.dir/depend:
-	cd /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/graph_algorithms_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kakkosbp/Pobrane/PAMSIGrafy /home/kakkosbp/Pobrane/PAMSIGrafy /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug /home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles/graph_algorithms_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/graph_algorithms_lib.dir/depend
 

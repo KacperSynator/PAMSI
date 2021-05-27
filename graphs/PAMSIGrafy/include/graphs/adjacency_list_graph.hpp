@@ -2,7 +2,6 @@
 #define ADJACENCY_LIST_GRAPH_HPP_
 
 #include <memory>
-#include <vector>
 
 #include "graphs/graph.hpp"
 

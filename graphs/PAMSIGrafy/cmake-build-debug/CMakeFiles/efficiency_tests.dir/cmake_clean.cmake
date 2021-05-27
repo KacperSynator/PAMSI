@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/efficiency_tests.dir/src/main.cpp.o"
-  "CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.o"
-  "CMakeFiles/efficiency_tests.dir/src/timer.cpp.o"
   "efficiency_tests"
   "efficiency_tests.pdb"
 )

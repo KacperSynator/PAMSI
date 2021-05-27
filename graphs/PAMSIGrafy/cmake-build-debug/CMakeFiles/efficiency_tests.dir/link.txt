@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/efficiency_tests.dir/src/main.cpp.o CMakeFiles/efficiency_tests.dir/src/timer.cpp.o CMakeFiles/efficiency_tests.dir/src/shortest_path_algorithms.cpp.o -o efficiency_tests  -lstdc++fs libgraph_algorithms_lib.a libgraph_algorithms_lib.a -lstdc++fs 
+/usr/bin/c++ -g CMakeFiles/efficiency_tests.dir/src/main.cpp.o -o efficiency_tests  -lstdc++fs libgraph_algorithms_lib.a -lstdc++fs 

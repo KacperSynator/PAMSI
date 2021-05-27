@@ -11,8 +11,3 @@ CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o: ../include
 CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o: ../include/graphs/shortest_path_algorithms.hpp
 CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o: ../src/adjacency_matrix_graph.cpp
 
-CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.o: ../src/graph_generator.cpp
-
-CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.o: ../include/timer/timer.hpp
-CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.o: ../src/timer.cpp
-

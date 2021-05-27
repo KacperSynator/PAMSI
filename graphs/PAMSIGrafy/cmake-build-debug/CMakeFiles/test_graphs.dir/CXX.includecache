@@ -593,8 +593,6 @@ cassert
 ../include/graphs/adjacency_list_graph.hpp
 memory
 -
-vector
--
 graphs/graph.hpp
 ../include/graphs/graphs/graph.hpp
 
@@ -622,23 +620,23 @@ utility
 vector
 -
 
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/shortest_path_algorithms.cpp
+/home/kakkosbp/Pobrane/PAMSIGrafy/src/shortest_path_algorithms.cpp
 graphs/shortest_path_algorithms.hpp
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graphs/shortest_path_algorithms.hpp
+/home/kakkosbp/Pobrane/PAMSIGrafy/src/graphs/shortest_path_algorithms.hpp
 
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/test_graphs.cpp
+/home/kakkosbp/Pobrane/PAMSIGrafy/src/test_graphs.cpp
 sstream
 -
 string
 -
 catch2/catch.hpp
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/catch2/catch.hpp
+/home/kakkosbp/Pobrane/PAMSIGrafy/src/catch2/catch.hpp
 graphs/adjacency_list_graph.hpp
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graphs/adjacency_list_graph.hpp
+/home/kakkosbp/Pobrane/PAMSIGrafy/src/graphs/adjacency_list_graph.hpp
 graphs/adjacency_matrix_graph.hpp
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graphs/adjacency_matrix_graph.hpp
+/home/kakkosbp/Pobrane/PAMSIGrafy/src/graphs/adjacency_matrix_graph.hpp
 graphs/shortest_path_algorithms.hpp
-/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graphs/shortest_path_algorithms.hpp
+/home/kakkosbp/Pobrane/PAMSIGrafy/src/graphs/shortest_path_algorithms.hpp
 filesystem
 -
 fstream

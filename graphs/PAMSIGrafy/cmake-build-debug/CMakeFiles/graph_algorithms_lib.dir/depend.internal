@@ -5,14 +5,9 @@ CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o
  ../include/graphs/adjacency_list_graph.hpp
  ../include/graphs/graph.hpp
  ../include/graphs/shortest_path_algorithms.hpp
- /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_list_graph.cpp
+ /home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_list_graph.cpp
 CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o
  ../include/graphs/adjacency_matrix_graph.hpp
  ../include/graphs/graph.hpp
  ../include/graphs/shortest_path_algorithms.hpp
- /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_matrix_graph.cpp
-CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.o
- /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graph_generator.cpp
-CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.o
- ../include/timer/timer.hpp
- /home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/timer.cpp
+ /home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_matrix_graph.cpp

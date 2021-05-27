@@ -4,10 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_list_graph.cpp" "/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o"
-  "/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/adjacency_matrix_graph.cpp" "/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o"
-  "/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/graph_generator.cpp" "/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/graph_algorithms_lib.dir/src/graph_generator.cpp.o"
-  "/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/src/timer.cpp" "/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/cmake-build-debug/CMakeFiles/graph_algorithms_lib.dir/src/timer.cpp.o"
+  "/home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_list_graph.cpp" "/home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o"
+  "/home/kakkosbp/Pobrane/PAMSIGrafy/src/adjacency_matrix_graph.cpp" "/home/kakkosbp/Pobrane/PAMSIGrafy/cmake-build-debug/CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

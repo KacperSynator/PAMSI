@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kakkosbp/Pulpit/PAMSI/PAMSIGrafy/PAMSIGrafy/include
+CXX_INCLUDES = -I/home/kakkosbp/Pobrane/PAMSIGrafy/include
 
 CXX_FLAGS = -g -std=gnu++17
 
