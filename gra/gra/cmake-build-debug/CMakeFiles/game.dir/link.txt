@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/game.dir/src/main.cpp.o CMakeFiles/game.dir/src/gui.cpp.o CMakeFiles/game.dir/src/draughts.cpp.o CMakeFiles/game.dir/src/piece.cpp.o CMakeFiles/game.dir/src/mother.cpp.o CMakeFiles/game.dir/src/figure_interface.cpp.o -o game  /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so /usr/lib/x86_64-linux-gnu/libSDL2main.a /usr/lib/x86_64-linux-gnu/libSDL2.so -lpthread 
