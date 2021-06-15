@@ -19,11 +19,14 @@ public:
         std::vector<position> findMove(Draughts & draughts);
         void set_difficulty(difficulty dif) {max_depth=dif;}
         difficulty get_difficulty();
+        bool is_alpha_beta_on() {return alpha_beta_on;}
+        void toggle_alpha_beta() {alpha_beta_on=!alpha_beta_on;}
 
     private:
+        bool alpha_beta_on=true;
         int max_depth=normal;
         int evaluate(Draughts & draughts);
-        int minimax(int depth,bool isPlayerTurn,Draughts & draughts, int & alpha, int & beta);
+        int minimax(int depth,bool isPlayerTurn,Draughts & draughts, int  alpha, int  beta);
     };
 
     Draughts();

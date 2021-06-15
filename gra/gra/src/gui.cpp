@@ -231,6 +231,10 @@ void Gui::handleSideClick(SDL_MouseButtonEvent event)
     /// difficulty hard
     if(event.x > 840 && event.x < 936 && event.y > 340 && event.y < 371)
         draughts.getAI().set_difficulty(Draughts::AI::hard);
+
+    /// alpha beta pruning on/off
+    if(event.x > 780  && event.x < 1015 && event.y > 410 && event.y < 482)
+        draughts.getAI().toggle_alpha_beta();
 }
 
 void Gui::gameOver()
@@ -324,8 +328,7 @@ void Gui::draw()
         SDL_Color fontColor_easy = {0, 0, 0};
         SDL_Color fontColor_normal = {0, 0, 0};
         SDL_Color fontColor_hard = {0, 0, 0};
-        switch (draughts.getAI().get_difficulty())
-        {
+        switch (draughts.getAI().get_difficulty()) {
             case Draughts::AI::easy:
                 fontColor_easy = {255, 255, 255};
                 break;
@@ -352,6 +355,21 @@ void Gui::draw()
         ai_dif_textRect = {840, 340};
         SDL_BlitSurface(ai_dif_text, nullptr, surface, &ai_dif_textRect);
         SDL_FreeSurface(ai_dif_text);
+
+
+        str = "Alpha Beta";
+        SDL_Surface *alpha_beta_on_text_1 = TTF_RenderText_Blended(font_small, str, fontColor);
+        SDL_Rect alpha_beta_on_textRect_1 = {780, 410};
+        SDL_BlitSurface(alpha_beta_on_text_1, nullptr, surface, &alpha_beta_on_textRect_1);
+        SDL_FreeSurface(alpha_beta_on_text_1);
+
+        if (draughts.getAI().is_alpha_beta_on()) str = "pruning: ON";
+        else str = "pruning: OFF";
+        SDL_Surface *alpha_beta_on_text_2 = TTF_RenderText_Blended(font_small, str, fontColor);
+        SDL_Rect alpha_beta_on_textRect_2 = {770, 450};
+        SDL_BlitSurface(alpha_beta_on_text_2, nullptr, surface, &alpha_beta_on_textRect_2);
+        SDL_FreeSurface(alpha_beta_on_text_2);
+
     }
 
     SDL_Rect wc_Rect = {800, 650, 40, 40};
@@ -372,6 +390,8 @@ void Gui::draw()
     SDL_BlitSurface(text_bc, nullptr, surface, &black_count);
     SDL_FreeSurface(text_wc);
     SDL_FreeSurface(text_bc);
+
+
 
     SDL_UpdateWindowSurface(window);
 }

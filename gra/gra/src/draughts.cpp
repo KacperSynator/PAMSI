@@ -164,7 +164,9 @@ std::vector<position>  Draughts::AI::findMove(Draughts & draughts) {
     int maxEval = std::numeric_limits<int>::min();
     int alpha = std::numeric_limits<int>::min();
     int beta = std::numeric_limits<int>::max();
+
     for (auto paths : all_paths)
+    {
         for (auto it = paths.end() - 1; it != paths.begin() - 1; --it) // best moves are usually at the end
         {
             Draughts tmp_draughts = draughts;
@@ -175,39 +177,32 @@ std::vector<position>  Draughts::AI::findMove(Draughts & draughts) {
             if (maxEval == eval) result_path = *it;
             alpha = std::max(alpha, eval);
             //count++;
-            if (beta <= alpha)
-                break;
+            if (beta <= alpha && alpha_beta_on)
+                return result_path;
         }
+    }
     //std::cout << count << "\n";
     //count = 0;
-
-    if (result_path.size() < 2)
-    {
-        int i;
-        for (i = 0; !all_paths[i].empty(); i++);
-        result_path = all_paths[i][0];
-    }
 
     return result_path;
 }
 
 int Draughts::AI::evaluate(Draughts & draughts)
 {
-    draughts.nextTurn();
-    if(draughts.gameOver()) return std::numeric_limits<int>::min();
-    draughts.nextTurn();
+    if(draughts.gameOver()) return std::numeric_limits<int>::max();
+
 
     int evaluation;
 
     if(draughts.isWhiteTurn())
     {
-        evaluation = 5*draughts.getBlackCount() + 15 * draughts.getBlackMotherCount() -
-                     7*draughts.getWhiteCount() - 15 * draughts.getWhiteMotherCount();
+        evaluation = 5*draughts.getBlackCount() + 10 * draughts.getBlackMotherCount() -
+                     7*draughts.getWhiteCount() - 10 * draughts.getWhiteMotherCount();
     }
     else
     {
-        evaluation = 5*draughts.getWhiteCount() + 15 * draughts.getWhiteMotherCount() -
-                    7*draughts.getBlackCount() - 15 * draughts.getBlackMotherCount();
+        evaluation = 5*draughts.getWhiteCount() + 10 * draughts.getWhiteMotherCount() -
+                    7*draughts.getBlackCount() - 10 * draughts.getBlackMotherCount();
     }
 
     evaluation += rand() % 7 - 3;
@@ -215,7 +210,7 @@ int Draughts::AI::evaluate(Draughts & draughts)
     return evaluation;
 }
 
-int Draughts::AI::minimax(int depth,bool isPlayerTurn,Draughts & draughts , int & alpha, int & beta)
+int Draughts::AI::minimax(int depth,bool isPlayerTurn,Draughts & draughts , int  alpha, int  beta)
 {
     if(depth==0 || draughts.gameOver()) return evaluate(draughts);
 
@@ -236,10 +231,11 @@ int Draughts::AI::minimax(int depth,bool isPlayerTurn,Draughts & draughts , int 
                 minEval= std::min(minEval, eval);
                 beta = std::min(beta, eval);
                 //count++;
-                if(beta <= alpha)
-                    break;
+                if(beta <= alpha && alpha_beta_on)
+                   //return minEval;
+                     break;
             }
-        return  eval;
+        return  minEval;
     }
     else
     {
@@ -254,10 +250,11 @@ int Draughts::AI::minimax(int depth,bool isPlayerTurn,Draughts & draughts , int 
                 maxEval= std::max(maxEval, eval);
                 alpha = std::max(alpha, eval);
                 //count++;
-                if(beta <= alpha)
+                if(beta <= alpha && alpha_beta_on)
+                    //return maxEval;
                     break;
             }
-        return  eval;
+        return  maxEval;
     }
 
 }
