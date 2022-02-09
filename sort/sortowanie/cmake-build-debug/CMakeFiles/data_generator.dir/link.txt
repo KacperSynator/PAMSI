@@ -1,3 +1,0 @@
-C:\Users\kakko\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\data_generator.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\data_generator.dir/objects.a @CMakeFiles\data_generator.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\data_generator.dir/objects.a -Wl,--no-whole-archive -o data_generator.exe -Wl,--out-implib,libdata_generator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\data_generator.dir\linklibs.rsp

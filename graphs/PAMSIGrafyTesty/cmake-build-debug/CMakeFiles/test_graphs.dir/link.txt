@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/test_graphs.dir/src/test_graphs.cpp.o CMakeFiles/test_graphs.dir/src/shortest_path_algorithms.cpp.o -o test_graphs  -lstdc++fs libgraph_algorithms_lib.a -lstdc++fs 

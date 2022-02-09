@@ -1,6 +1,0 @@
-C:/Users/kakko/Desktop/PAMSI/sort/sortowanie/cmake-build-debug/CMakeFiles/sorting.dir
-C:/Users/kakko/Desktop/PAMSI/sort/sortowanie/cmake-build-debug/CMakeFiles/test_sorting.dir
-C:/Users/kakko/Desktop/PAMSI/sort/sortowanie/cmake-build-debug/CMakeFiles/data_generator.dir
-C:/Users/kakko/Desktop/PAMSI/sort/sortowanie/cmake-build-debug/CMakeFiles/sorting_performance.dir
-C:/Users/kakko/Desktop/PAMSI/sort/sortowanie/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/kakko/Desktop/PAMSI/sort/sortowanie/cmake-build-debug/CMakeFiles/rebuild_cache.dir

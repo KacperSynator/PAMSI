@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/efficiency_tests.dir/src/main.cpp.o -o efficiency_tests  -lstdc++fs libgraph_algorithms_lib.a -lstdc++fs 

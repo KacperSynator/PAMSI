@@ -1,2 +1,0 @@
-/usr/bin/ar qc libgraph_algorithms_lib.a CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.o CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.o
-/usr/bin/ranlib libgraph_algorithms_lib.a
