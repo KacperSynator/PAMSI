@@ -44,9 +44,29 @@ void heapSort(std::vector<int>& tab)
 
 }
 
+void _quickSort(std::vector<int>& tab, unsigned long start, unsigned long end)
+{
+    if(end <= start || start < 0 || end >= tab.size())
+        return;
+
+    unsigned long pivot_index = end; // chose pivot as last element
+    for(unsigned long i=start; i < pivot_index;)
+    {
+        if(tab[i] > tab[pivot_index])
+        {
+            std::swap(tab[pivot_index], tab[i]);
+            std::swap(tab[i], tab[pivot_index - 1]);
+            pivot_index--;
+        }
+        else
+            i++;
+    }
+    _quickSort(tab, start, pivot_index - 1);
+    _quickSort(tab, pivot_index + 1, end);
+}
 void quickSort(std::vector<int>& tab)
 {
-    // TODO: implement
+    _quickSort(tab, 0, tab.size()-1);
 }
 
 

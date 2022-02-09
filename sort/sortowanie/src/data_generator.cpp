@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 
   std::vector<int> sizes;
-  unsigned int data_size_min=10000, data_size_max=100000, data_size_step=10000;
+  unsigned int data_size_min=1000, data_size_max=100000, data_size_step=10000;
   for(unsigned int i=data_size_min; i<=data_size_max; i+=data_size_step)
       sizes.push_back(i);
 
