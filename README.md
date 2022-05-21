@@ -24,13 +24,14 @@ with artificial inteligence based on min-max algorithm. First three projects con
 * Using both `Adjacency matrix` and `Adjacency list`
 
 ## [Droughts game](gra/gra)
-Droughts game with graphical interface based on SDL2, with AI based on min-max algorithm.
+#### Droughts game with graphical interface based on SDL2, with AI based on min-max algorithm.
+<img src="https://user-images.githubusercontent.com/62207289/169647634-b6910d35-c410-40c2-8127-f7c37be9df5b.png" width="680" height="420">
 
 
 ## Getting started
 #### 0. Install SDL2 library (Droughts only)
 ```bash
-sudo apt install libsdl2-dev
+sudo apt install libsdl2-dev libsdl2-ttf-dev
 ```
 #### 1. Clone repo
 ```bash
@@ -44,6 +45,7 @@ cd build
 #### 3. Build subproject
 ```bash
 cmake ..
+make
 ```
 #### 4. Run
 ```bash
